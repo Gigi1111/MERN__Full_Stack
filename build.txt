@@ -22,3 +22,18 @@ $ heroku git:remote -a secret-woodland-49778
 $ git push heroku master
 use your own domain, setting/add domain
 https://devcenter.heroku.com/articles/custom-domains
+
+//push to git hub, create a repository and follow instruction
+
+echo "# MERN__Full_Stack" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Gigi1111/MERN__Full_Stack.git
+git push -u origin master
+
+//update it
+touch README.md
+git add .
+git commit -m 'message'
+git push
