@@ -39,4 +39,7 @@ root terminal$ heroku login
 heroku create
 go to heroku dashboard>deploy
 $ git init
+$ git add .
+$ git commit -am 'Version 1.0.0'
 $ heroku git:remote -a secret-woodland-49778
+$ git push heroku master
