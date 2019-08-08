@@ -1,0 +1,21 @@
+//1 npm init
+MIT license
+//2
+npm install express body-parser mongoose concurrently
+npm i -D nodemon
+//3 package.json
+  "start": "node server.js"
+    "server": "nodemon server.js"
+//4 server.js
+//5 config/keys.js mongoDB
+whitelist your IP address 
+//6 models/Item.js
+Schema
+//7 routes/api/items.js
+//8 postman GET http://localhost:5000/api/items 200
+POST Header Content-type application/json ; Body raw
+{
+	"name": "Eggs"
+}
+DELETE
+http://localhost:5000/api/items/id

@@ -1,0 +1,42 @@
+//1 package.json in client
+proxy
+//2 package in MERN
+        "client-install": "cd client && npm install",
+		"start": "node server.js",
+		"server": "nodemon server.js",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	npm run dev
+//3 
+cd client
+npm install bootstrap reactstrap uuid react-transition-group
+import bootstrap in App.js
+//4 
+create components/AppNavbar.js using reactstrap
+create a Navbar
+//5 
+create components/Shoppinglist.js
+//6 
+add fade css effect in App.css
+//7 
+npm i redux react-redux redux-thunk
+src/store.js
+app.js bring in provider
+//8 
+src/reducers/index.js
+src/actions/types.js
+then we need an actions
+actions/itemActions.js
+in Shoppinglist.js, actions
+//9
+in shoppinglist proptypes
+//10
+in shoppinglist lifecycle componentdidmount
+in root package.json, add "post-build"
+//11
+go to heroku
+root terminal$ heroku login
+heroku create
+go to heroku dashboard>deploy
+$ git init
+$ heroku git:remote -a secret-woodland-49778
