@@ -1,8 +1,0 @@
-//1
-cd client
-npm run build
-//2
-delete client/build folder
-
-//3 server.js
-serve static assets if in production

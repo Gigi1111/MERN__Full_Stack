@@ -1,0 +1,24 @@
+//1
+cd client
+npm run build
+//2
+delete client/build folder
+
+//3 server.js
+serve static assets if in production
+
+//4
+in shoppinglist lifecycle componentdidmount
+in root package.json, add "post-build"
+//5
+go to heroku
+root terminal$ heroku login
+heroku create
+go to heroku dashboard>deploy
+$ git init
+$ git add .
+$ git commit -am 'Version 1.0.0'
+$ heroku git:remote -a secret-woodland-49778
+$ git push heroku master
+use your own domain, setting/add domain
+https://devcenter.heroku.com/articles/custom-domains

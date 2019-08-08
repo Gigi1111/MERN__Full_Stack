@@ -43,3 +43,5 @@ $ git add .
 $ git commit -am 'Version 1.0.0'
 $ heroku git:remote -a secret-woodland-49778
 $ git push heroku master
+use your own domain, setting/add domain
+https://devcenter.heroku.com/articles/custom-domains
