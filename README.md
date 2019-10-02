@@ -7,15 +7,15 @@ Frontend:
 bootstrap,
 reactstrap,
 react-transition-group,
-Redux, 
-Thunk, 
+redux, 
+thunk, 
 axios, 
 bcryptjs
 
 Backend:
 express, 
 concurrently, 
-nodemon,
+nodemon
 
 DB:
 mongoose 
