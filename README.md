@@ -1,4 +1,5 @@
 # MERN__Full_Stack
+main file: server.js
 
 This is a practice MERN full stack project using the following tools:
 
