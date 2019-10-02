@@ -25,3 +25,5 @@ mongoose
 $npm install
 Replace the mongoURI in config with your own mongoURI
 
+# Future Posibilities
+implement jwt to authenticate and send user token
