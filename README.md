@@ -5,6 +5,7 @@ This is a practice MERN full stack project using the following tools:
 
 
 Frontend:
+react, 
 bootstrap,
 reactstrap,
 react-transition-group,
@@ -14,11 +15,13 @@ axios,
 bcryptjs
 
 Backend:
+nodeJS,
 express, 
 concurrently, 
 nodemon
 
 DB:
+mongoDB
 mongoose 
 
 
